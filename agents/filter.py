@@ -64,5 +64,5 @@ def filter_items(data: dict) -> dict:
                     best_category = _email_category(section, topic)
         if not skip and best_score > 0:
             scored.append({**item, "score": best_score, "category": best_category})
-    scored.sort(key=lambda x: x["score"], reverse=True)
+    scored.sort(key=lambda x: x["published_at"], reverse=True)
     return {"items": scored}
