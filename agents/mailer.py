@@ -21,7 +21,7 @@ def send_mail(data: dict) -> bool:
 
     user = os.environ["GMAIL_USER"]
     password = os.environ["GMAIL_APP_PASSWORD"]
-    recipient = os.environ.get("RECIPIENT_EMAIL", user)
+    recipient = os.environ.get("RECIPIENT_EMAIL") or user
 
     msg = MIMEMultipart("alternative")
     msg["Subject"] = f"Morning Brief — {datetime.now(timezone.utc).strftime('%d %B %Y')}"
