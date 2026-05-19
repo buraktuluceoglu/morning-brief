@@ -39,6 +39,10 @@ def collect() -> dict:
                 "published_at": _parse_date(entry),
                 "snippet": _snippet(entry),
             })
+    sources_with_items = {item["source"] for item in items}
+    failed = len(FEEDS) - len(sources_with_items)
+    if failed:
+        print(f"Collector: {failed}/{len(FEEDS)} feeds returned no items")
     return {"items": items}
 
 

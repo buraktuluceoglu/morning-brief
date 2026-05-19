@@ -11,7 +11,8 @@ def _load() -> dict:
         return {}
     try:
         return json.loads(VAULT.read_text())
-    except Exception:
+    except Exception as e:
+        print(f"Vault corrupted [{VAULT}]: {e} — starting fresh")
         return {}
 
 

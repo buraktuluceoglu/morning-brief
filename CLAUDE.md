@@ -159,7 +159,7 @@ Not: Anthropic ve The Batch feed'leri GitHub tabanlı — repo güncellenmezse d
 - Mail formatı HTML — okunabilir, sade.
 
 **GitHub Actions kuralları:**
-- Her gün 05:00 UTC'de çalışır (Türkiye saatiyle 08:00, UTC+3).
+- Her gün 04:45 UTC'de çalışır (Türkiye saatiyle 07:45, UTC+3).
 - sent_urls.json her çalışma sonrası commit'lenir — geçmiş korunur.
 - Secrets: ANTHROPIC_API_KEY, GMAIL_USER, GMAIL_APP_PASSWORD
 

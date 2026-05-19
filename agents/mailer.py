@@ -1,3 +1,4 @@
+import html
 import os
 import smtplib
 from datetime import datetime, timezone
@@ -79,12 +80,15 @@ def _render_html(items: list) -> str:
 
 
 def _card(item: dict) -> str:
-    summary = item.get("summary") or item.get("snippet", "")
+    summary = html.escape(item.get("summary") or item.get("snippet", ""))
+    title = html.escape(item["title"])
+    source = html.escape(item["source"])
+    url = html.escape(item["url"], quote=True)
     date = item.get("published_at", "")[:10]
     return (
         f'<div class="card">'
-        f'<a href="{item["url"]}">{item["title"]}</a>'
-        f'<div class="meta">{item["source"]} · {date}</div>'
+        f'<a href="{url}">{title}</a>'
+        f'<div class="meta">{source} · {date}</div>'
         f'<p class="summary">{summary}</p>'
         f"</div>"
     )

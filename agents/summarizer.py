@@ -19,7 +19,8 @@ def summarize(data: dict) -> dict:
         messages=[{"role": "user", "content": _build_prompt(items)}],
     )
 
-    summaries = _parse_response(response.content[0].text)
+    raw = response.content[0].text if response.content else "[]"
+    summaries = _parse_response(raw)
     for item, summary in zip(items, summaries):
         item["summary"] = summary
     return {"items": items}
@@ -40,8 +41,11 @@ def _build_prompt(items: list) -> str:
 def _parse_response(text: str) -> list[str]:
     start, end = text.find("["), text.rfind("]") + 1
     if start == -1 or end == 0:
-        return ["Özet alınamadı."] * 99
+        print(f"Summarizer: no JSON array in response; raw head: {text[:200]!r}")
+        return []
     try:
-        return [e.get("summary", "Özet alınamadı.") for e in json.loads(text[start:end])]
-    except Exception:
-        return ["Özet alınamadı."] * 99
+        parsed = json.loads(text[start:end])
+        return [e.get("summary", "Summary unavailable.") for e in parsed]
+    except Exception as e:
+        print(f"Summarizer: JSON parse failed ({e}); raw head: {text[:200]!r}")
+        return []
