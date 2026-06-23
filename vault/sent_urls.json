@@ -1,10 +1,4 @@
 {
-  "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware": "2026-05-24T07:40:04.892947+00:00",
-  "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html": "2026-05-24T07:40:04.892947+00:00",
-  "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html": "2026-05-24T07:40:04.892947+00:00",
-  "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html": "2026-05-24T07:40:04.892947+00:00",
-  "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html": "2026-05-24T07:40:04.892947+00:00",
-  "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html": "2026-05-24T07:40:04.892947+00:00",
   "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html": "2026-05-25T08:47:05.845320+00:00",
   "https://arxiv.org/abs/2605.22875": "2026-05-25T08:47:05.845320+00:00",
   "https://arxiv.org/abs/2605.22878": "2026-05-25T08:47:05.845320+00:00",
@@ -589,5 +583,16 @@
   "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html": "2026-06-21T08:47:29.827744+00:00",
   "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html": "2026-06-22T10:23:45.925261+00:00",
   "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html": "2026-06-22T10:23:45.925261+00:00",
-  "https://simonwillison.net/2026/jun/21/temporary-cloudflare-accounts": "2026-06-22T10:23:45.925261+00:00"
+  "https://simonwillison.net/2026/jun/21/temporary-cloudflare-accounts": "2026-06-22T10:23:45.925261+00:00",
+  "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html": "2026-06-23T08:08:48.986317+00:00",
+  "https://simonwillison.net/2026/jun/22/porting-moebius": "2026-06-23T08:08:48.986317+00:00",
+  "https://www.bleepingcomputer.com/news/security/whatsapp-phishing-attack-uses-fake-business-docs-to-hack-pcs": "2026-06-23T08:08:48.986317+00:00",
+  "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials": "2026-06-23T08:08:48.986317+00:00",
+  "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html": "2026-06-23T08:08:48.986317+00:00",
+  "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution": "2026-06-23T08:08:48.986317+00:00",
+  "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html": "2026-06-23T08:08:48.986317+00:00",
+  "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html": "2026-06-23T08:08:48.986317+00:00",
+  "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html": "2026-06-23T08:08:48.986317+00:00",
+  "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html": "2026-06-23T08:08:48.986317+00:00",
+  "https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak": "2026-06-23T08:08:48.986317+00:00"
 }
