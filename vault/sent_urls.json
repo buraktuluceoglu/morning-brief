@@ -1,6 +1,4 @@
 {
-  "https://simonwillison.net/2026/aug/2/july-newsletter": "2026-08-02T07:14:14.494003+00:00",
-  "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html": "2026-08-02T07:14:14.494003+00:00",
   "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html": "2026-08-03T08:01:26.675604+00:00",
   "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html": "2026-08-03T08:01:26.675604+00:00",
   "https://arxiv.org/abs/2607.28674": "2026-08-03T08:01:26.675604+00:00",
@@ -565,5 +563,24 @@
   "https://arxiv.org/abs/2608.27967": "2026-08-31T11:07:20.976051+00:00",
   "https://arxiv.org/abs/2608.27990": "2026-08-31T11:07:20.976051+00:00",
   "https://arxiv.org/abs/2608.28021": "2026-08-31T11:07:20.976051+00:00",
-  "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick": "2026-08-31T11:07:20.976051+00:00"
+  "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick": "2026-08-31T11:07:20.976051+00:00",
+  "https://www.bleepingcomputer.com/news/security/recently-patched-papercut-zero-days-used-in-data-theft-attacks": "2026-09-01T09:35:08.636976+00:00",
+  "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.28590": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.28594": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.28596": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.28600": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.28882": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.29084": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.29134": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.29191": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.29212": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.29381": "2026-09-01T09:35:08.636976+00:00",
+  "https://arxiv.org/abs/2608.29489": "2026-09-01T09:35:08.636976+00:00",
+  "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control": "2026-09-01T09:35:08.636976+00:00",
+  "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html": "2026-09-01T09:35:08.636976+00:00",
+  "https://www.bleepingcomputer.com/news/security/berlin-confirms-data-theft-after-rhysida-ransomware-attack-claims": "2026-09-01T09:35:08.636976+00:00",
+  "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html": "2026-09-01T09:35:08.636976+00:00",
+  "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html": "2026-09-01T09:35:08.636976+00:00",
+  "https://www.anthropic.com/news/improving-alignment-security-efforts": "2026-09-01T09:35:08.636976+00:00"
 }
