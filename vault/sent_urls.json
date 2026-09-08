@@ -1,11 +1,4 @@
 {
-  "https://simonwillison.net/2026/aug/8/auto-mode": "2026-08-09T05:31:46.921844+00:00",
-  "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors": "2026-08-09T05:31:46.921844+00:00",
-  "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html": "2026-08-09T05:31:46.921844+00:00",
-  "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html": "2026-08-09T05:31:46.921844+00:00",
-  "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html": "2026-08-09T05:31:46.921844+00:00",
-  "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html": "2026-08-09T05:31:46.921844+00:00",
-  "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html": "2026-08-09T05:31:46.921844+00:00",
   "https://arxiv.org/abs/2608.06398": "2026-08-10T06:00:13.956163+00:00",
   "https://arxiv.org/abs/2608.06400": "2026-08-10T06:00:13.956163+00:00",
   "https://arxiv.org/abs/2608.06410": "2026-08-10T06:00:13.956163+00:00",
@@ -563,5 +556,15 @@
   "https://arxiv.org/abs/2609.04875": "2026-09-07T09:41:17.164330+00:00",
   "https://arxiv.org/abs/2609.04899": "2026-09-07T09:41:17.164330+00:00",
   "https://arxiv.org/abs/2609.05013": "2026-09-07T09:41:17.164330+00:00",
-  "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters": "2026-09-07T09:41:17.164330+00:00"
+  "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters": "2026-09-07T09:41:17.164330+00:00",
+  "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak": "2026-09-08T09:04:32.671968+00:00",
+  "https://simonwillison.net/2026/sep/7/jakub-pachocki": "2026-09-08T09:04:32.671968+00:00",
+  "https://simonwillison.net/2026/sep/7/video-compressor": "2026-09-08T09:04:32.671968+00:00",
+  "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor": "2026-09-08T09:04:32.671968+00:00",
+  "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations": "2026-09-08T09:04:32.671968+00:00",
+  "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html": "2026-09-08T09:04:32.671968+00:00",
+  "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people": "2026-09-08T09:04:32.671968+00:00",
+  "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers": "2026-09-08T09:04:32.671968+00:00",
+  "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html": "2026-09-08T09:04:32.671968+00:00",
+  "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch": "2026-09-08T09:04:32.671968+00:00"
 }
