@@ -1,9 +1,4 @@
 {
-  "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html": "2026-09-13T09:42:43.551170+00:00",
-  "https://www.bleepingcomputer.com/news/security/dutch-ncsc-critical-check-point-vpn-flaws-exploitation-is-imminent": "2026-09-13T09:42:43.551170+00:00",
-  "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html": "2026-09-13T09:42:43.551170+00:00",
-  "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html": "2026-09-13T09:42:43.551170+00:00",
-  "https://simonwillison.net/2026/sep/11/datasette-2": "2026-09-13T09:42:43.551170+00:00",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-cause-rds-failures-on-windows-server": "2026-09-14T10:06:52.271140+00:00",
   "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports": "2026-09-14T10:06:52.271140+00:00",
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-updates-break-audio-on-some-windows-pcs": "2026-09-14T10:06:52.271140+00:00",
@@ -632,5 +627,15 @@
   "https://arxiv.org/abs/2610.12540": "2026-10-12T12:24:56.172275+00:00",
   "https://arxiv.org/abs/2610.12621": "2026-10-12T12:24:56.172275+00:00",
   "https://arxiv.org/abs/2610.12913": "2026-10-12T12:24:56.172275+00:00",
-  "https://arxiv.org/abs/2610.12948": "2026-10-12T12:24:56.172275+00:00"
+  "https://arxiv.org/abs/2610.12948": "2026-10-12T12:24:56.172275+00:00",
+  "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html": "2026-10-13T12:08:47.835892+00:00",
+  "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html": "2026-10-13T12:08:47.835892+00:00",
+  "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack": "2026-10-13T12:08:47.835892+00:00",
+  "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges": "2026-10-13T12:08:47.835892+00:00",
+  "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites": "2026-10-13T12:08:47.835892+00:00",
+  "https://www.darkreading.com/cybersecurity-operations/cyber-resilience-starts-with-iam": "2026-10-13T12:08:47.835892+00:00",
+  "https://simonwillison.net/2026/oct/12/web-edit": "2026-10-13T12:08:47.835892+00:00",
+  "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html": "2026-10-13T12:08:47.835892+00:00",
+  "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine": "2026-10-13T12:08:47.835892+00:00",
+  "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes": "2026-10-13T12:08:47.835892+00:00"
 }
