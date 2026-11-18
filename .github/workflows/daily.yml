@@ -1,6 +1,8 @@
 name: morning-brief
 
 on:
+  # Primary trigger: external cron (cron-job.org) calls workflow_dispatch at 04:45 UTC.
+  # GitHub schedule is a fallback — it is often delayed by hours.
   schedule:
     - cron: "45 4 * * *"
   workflow_dispatch:
@@ -17,15 +19,30 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Skip if already sent today
+        id: check
+        run: |
+          git fetch origin main
+          last=$(TZ=UTC git log -1 --date=format-local:%Y-%m-%d --format=%cd origin/main -- vault/sent_urls.json)
+          if [ "$last" = "$(date -u +%Y-%m-%d)" ]; then
+            echo "Brief already sent today — skipping"
+            echo "sent=true" >> "$GITHUB_OUTPUT"
+          fi
 
       - uses: actions/setup-python@v5
+        if: steps.check.outputs.sent != 'true'
         with:
           python-version: "3.10"
 
       - name: Install dependencies
+        if: steps.check.outputs.sent != 'true'
         run: pip install -r requirements.txt
 
       - name: Run pipeline
+        if: steps.check.outputs.sent != 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
@@ -34,6 +51,7 @@ jobs:
         run: python main.py
 
       - name: Commit vault
+        if: steps.check.outputs.sent != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

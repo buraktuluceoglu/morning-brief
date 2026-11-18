@@ -10,9 +10,8 @@ FEEDS = [
     ("https://simonwillison.net/atom/everything", "Simon Willison"),
     ("https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/huggingface_blog_rss.xml", "HuggingFace Blog"),
     ("https://feeds.feedburner.com/TheHackersNews", "The Hacker News"),
-    ("https://krebsonsecurity.com/feed", "Krebs on Security"),
     ("https://www.bleepingcomputer.com/feed/", "BleepingComputer"),
-    ("https://www.darkreading.com/rss.xml", "Dark Reading"),
+    ("https://news.ycombinator.com/rss", "Hacker News"),
     ("https://export.arxiv.org/rss/cs.AI", "arXiv cs.AI"),
     ("https://export.arxiv.org/rss/cs.CR", "arXiv cs.CR"),
 ]

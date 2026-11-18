@@ -72,7 +72,7 @@ A token-efficient daily news briefing pipeline. Fetches RSS feeds, filters by in
 - feedparser — RSS okuma
 - anthropic — Claude API (summarizer agent)
 - smtplib — Gmail SMTP mail gönderme
-- GitHub Actions — her sabah 08:00'de otomatik çalışma (05:00 UTC)
+- GitHub Actions — her sabah 07:45'te otomatik çalışma (04:45 UTC)
 
 **Project structure:**
 ```
@@ -137,9 +137,8 @@ https://raw.githubusercontent.com/cnzhujie/ai-rss-feed/main/rss/huggingface_blog
 
 # Siber Güvenlik
 https://feeds.feedburner.com/TheHackersNews  # The Hacker News
-https://krebsonsecurity.com/feed  # Krebs on Security
 https://bleepingcomputer.com/feed  # BleepingComputer
-https://darkreading.com/rss.xml  # Dark Reading
+https://news.ycombinator.com/rss  # Hacker News
 
 # Araştırma
 https://export.arxiv.org/rss/cs.AI  # arXiv cs.AI
@@ -160,6 +159,8 @@ Not: Anthropic ve The Batch feed'leri GitHub tabanlı — repo güncellenmezse d
 
 **GitHub Actions kuralları:**
 - Her gün 04:45 UTC'de çalışır (Türkiye saatiyle 07:45, UTC+3).
+- Ana tetikleyici: cron-job.org → `workflow_dispatch` API (GitHub `schedule` saatlerce gecikebiliyor). GitHub `schedule` yedek olarak kalır.
+- Aynı gün (UTC) vault commit'i varsa workflow atlanır — günde tek mail.
 - sent_urls.json her çalışma sonrası commit'lenir — geçmiş korunur.
 - Secrets: ANTHROPIC_API_KEY, GMAIL_USER, GMAIL_APP_PASSWORD
 

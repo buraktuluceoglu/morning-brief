@@ -49,9 +49,8 @@ Only `summarizer.py` calls the LLM. It receives at most 15 items; each item is t
 
 **Cybersecurity**
 - The Hacker News
-- Krebs on Security
 - BleepingComputer
-- Dark Reading
+- Hacker News (news.ycombinator.com)
 
 **Research**
 - arXiv cs.AI
@@ -91,9 +90,24 @@ python main.py
 
 ## GitHub Actions
 
-The workflow at `.github/workflows/daily.yml` runs on a cron schedule and commits the updated `vault/sent_urls.json` back to the repo after each successful run so the deduplication history persists across runs.
+The workflow at `.github/workflows/daily.yml` commits the updated `vault/sent_urls.json` back to the repo after each successful run so the deduplication history persists across runs.
 
 Secrets required: `ANTHROPIC_API_KEY`, `GMAIL_USER`, `GMAIL_APP_PASSWORD`.
+
+### Scheduling
+
+GitHub's built-in `schedule` trigger is often delayed by several hours, so the primary trigger is an external cron service ([cron-job.org](https://cron-job.org)) that calls the `workflow_dispatch` API at 04:45 UTC. The GitHub `schedule` (also 04:45 UTC) stays as a fallback. If a brief was already sent today (a vault commit exists for today's UTC date), the workflow skips, so only one mail goes out per day.
+
+Setup:
+
+1. Create a fine-grained personal access token at GitHub → Settings → Developer settings → Fine-grained tokens, scoped to this repository only, with **Actions: Read and write** permission.
+2. On cron-job.org, create a job:
+   - URL: `https://api.github.com/repos/buraktuluceoglu/morning-brief/actions/workflows/daily.yml/dispatches`
+   - Schedule: every day at 07:45, timezone `Europe/Istanbul`
+   - Request method: `POST`
+   - Headers: `Authorization: Bearer <TOKEN>`, `Accept: application/vnd.github+json`
+   - Body: `{"ref":"main"}`
+3. A successful call returns `204 No Content`. Renew the token before it expires.
 
 ## Vault
 
